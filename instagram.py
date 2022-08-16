@@ -1,7 +1,7 @@
 import requests
-YOUR_API_KEY = '645497dbb7d87b72be2bb1aea9218344'
+YOUR_API_KEY = ''
 username= 'andersons.correia'
-id = '3153832734877241'
+id = ''
 apiVersion = 'v14.0'
 
 
