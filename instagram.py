@@ -1,4 +1,4 @@
-from traceback import print_tb
+
 import requests,os
 YOUR_API_KEY = ''
 username= 'Casimiro'
