@@ -1,11 +1,9 @@
-import requests
+from traceback import print_tb
+import requests,os
 YOUR_API_KEY = ''
-username= 'andersons.correia'
-id = ''
-apiVersion = 'v14.0'
+username= 'Casimiro'
 
 
-r = requests.get(f'https://graph.instagram.com/{apiVersion}/{id}?fields={username}&access_token={YOUR_API_KEY}')
-listVideo = r.json()
-
-print(listVideo)
+bearer_token = os.environ.get("BEARER_TOKEN")
+r = requests.get(f'https://api.twitter.com/2/tweets/search/recent')
+print(r)
